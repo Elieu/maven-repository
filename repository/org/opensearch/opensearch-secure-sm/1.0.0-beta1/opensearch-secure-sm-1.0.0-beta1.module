@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.opensearch",
+    "module": "opensearch-secure-sm",
+    "version": "1.0.0-beta1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "jhinvz2pvrfu5pmunbwe5zpofy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "opensearch-secure-sm-1.0.0-beta1.jar",
+          "url": "opensearch-secure-sm-1.0.0-beta1.jar",
+          "size": 10880,
+          "sha512": "e27d96ef3410cc1661cb660c3868e9b950fce3f8b3d2d3e7f42386f7bff292d1e604c0f61bd0904b0b2e92e4d0411dfd7832f659b6d3577293c31f36468044e7",
+          "sha256": "6ff217aa61bb150776a644b1f5b2c0be53afb03480c622f01ac0fe491f5ec358",
+          "sha1": "5372067410a89a68d482539d419a9b379cee7f1d",
+          "md5": "f6a5936045137951946bd89a5dfefcb6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opensearch-secure-sm-1.0.0-beta1.jar",
+          "url": "opensearch-secure-sm-1.0.0-beta1.jar",
+          "size": 10880,
+          "sha512": "e27d96ef3410cc1661cb660c3868e9b950fce3f8b3d2d3e7f42386f7bff292d1e604c0f61bd0904b0b2e92e4d0411dfd7832f659b6d3577293c31f36468044e7",
+          "sha256": "6ff217aa61bb150776a644b1f5b2c0be53afb03480c622f01ac0fe491f5ec358",
+          "sha1": "5372067410a89a68d482539d419a9b379cee7f1d",
+          "md5": "f6a5936045137951946bd89a5dfefcb6"
+        }
+      ]
+    }
+  ]
+}
