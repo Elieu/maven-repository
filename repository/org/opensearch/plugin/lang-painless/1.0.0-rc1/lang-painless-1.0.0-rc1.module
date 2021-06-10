@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.opensearch.plugin",
+    "module": "lang-painless",
+    "version": "1.0.0-rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "cukyeqsdbbgpxknivdaqkv2ztq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4-runtime",
+          "version": {
+            "requires": "4.5.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.opensearch.plugin",
+          "module": "opensearch-scripting-painless-spi",
+          "version": {
+            "requires": "1.0.0-rc1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lang-painless-1.0.0-rc1.jar",
+          "url": "lang-painless-1.0.0-rc1.jar",
+          "size": 702905,
+          "sha512": "3575bec34a987228aa76bf9e5d18b9c64715aa899bb33fb52298ba328ff6ddb004bcbcba2eebcd6c61c247d5c5e8938d298f918a96e830a1e956a31d55c86c56",
+          "sha256": "a49df25ce0502d588eb7ef2dd2e97772822b434af68bac064394bbf9de256650",
+          "sha1": "239b7adc4db48688ea2bbadd1f5b64cd55da519f",
+          "md5": "331fe67da48b210843b8000f7dec977b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4-runtime",
+          "version": {
+            "requires": "4.5.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.opensearch.plugin",
+          "module": "opensearch-scripting-painless-spi",
+          "version": {
+            "requires": "1.0.0-rc1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lang-painless-1.0.0-rc1.jar",
+          "url": "lang-painless-1.0.0-rc1.jar",
+          "size": 702905,
+          "sha512": "3575bec34a987228aa76bf9e5d18b9c64715aa899bb33fb52298ba328ff6ddb004bcbcba2eebcd6c61c247d5c5e8938d298f918a96e830a1e956a31d55c86c56",
+          "sha256": "a49df25ce0502d588eb7ef2dd2e97772822b434af68bac064394bbf9de256650",
+          "sha1": "239b7adc4db48688ea2bbadd1f5b64cd55da519f",
+          "md5": "331fe67da48b210843b8000f7dec977b"
+        }
+      ]
+    }
+  ]
+}

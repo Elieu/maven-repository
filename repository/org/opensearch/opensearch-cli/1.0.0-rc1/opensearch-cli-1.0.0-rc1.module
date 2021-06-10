@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.opensearch",
+    "module": "opensearch-cli",
+    "version": "1.0.0-rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "bvvm67qxjfbn7hxdcij35gbv4e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.opensearch",
+          "module": "opensearch-core",
+          "version": {
+            "requires": "1.0.0-rc1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opensearch-cli-1.0.0-rc1.jar",
+          "url": "opensearch-cli-1.0.0-rc1.jar",
+          "size": 17825,
+          "sha512": "653b2afdc447c1c92882a1d5334c11abdf28598826a28b0af6e72b7506da53015344397de21f97c3714f6baf4c1cdc8a77b22d5090a4619f4ecdcaa6253c31fe",
+          "sha256": "d0630895b7bc2bec244b0359586a5bd883f9a1f4fc799ddac7b9c2d1de2f4dc6",
+          "sha1": "c307e73d184d02fd7b7efd458d0c45ea31ebbdf6",
+          "md5": "68ab55be2cf29022033791f9b0a50c14"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.opensearch",
+          "module": "opensearch-core",
+          "version": {
+            "requires": "1.0.0-rc1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opensearch-cli-1.0.0-rc1.jar",
+          "url": "opensearch-cli-1.0.0-rc1.jar",
+          "size": 17825,
+          "sha512": "653b2afdc447c1c92882a1d5334c11abdf28598826a28b0af6e72b7506da53015344397de21f97c3714f6baf4c1cdc8a77b22d5090a4619f4ecdcaa6253c31fe",
+          "sha256": "d0630895b7bc2bec244b0359586a5bd883f9a1f4fc799ddac7b9c2d1de2f4dc6",
+          "sha1": "c307e73d184d02fd7b7efd458d0c45ea31ebbdf6",
+          "md5": "68ab55be2cf29022033791f9b0a50c14"
+        }
+      ]
+    }
+  ]
+}
