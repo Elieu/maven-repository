@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.opensearch.plugin",
+    "module": "analysis-common",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ifnld6r53ba4vpwzmi6d4aq6we"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "analysis-common-1.0.0.jar",
+          "url": "analysis-common-1.0.0.jar",
+          "size": 196331,
+          "sha512": "fb83d95aca74fbc324a693eaca8932bf1e57772159fc83195668915daf8c4e490ca86b18eba47b24beac70455f3ac4981e671c6af443e70530d38f0f19677173",
+          "sha256": "f74105ddf5b412e0fc0d788708f1af63b6026465c1a475d048a052f376fc4b83",
+          "sha1": "51bb63edd570d5406b1fec87ee129f447f2348d8",
+          "md5": "9314b1f097cce36d713aa52914ab8beb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "analysis-common-1.0.0.jar",
+          "url": "analysis-common-1.0.0.jar",
+          "size": 196331,
+          "sha512": "fb83d95aca74fbc324a693eaca8932bf1e57772159fc83195668915daf8c4e490ca86b18eba47b24beac70455f3ac4981e671c6af443e70530d38f0f19677173",
+          "sha256": "f74105ddf5b412e0fc0d788708f1af63b6026465c1a475d048a052f376fc4b83",
+          "sha1": "51bb63edd570d5406b1fec87ee129f447f2348d8",
+          "md5": "9314b1f097cce36d713aa52914ab8beb"
+        }
+      ]
+    }
+  ]
+}

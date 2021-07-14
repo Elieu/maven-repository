@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.opensearch",
+    "module": "opensearch-core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "tftr2b2tpjheblbn2zm5enuriy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "opensearch-core-1.0.0.jar",
+          "url": "opensearch-core-1.0.0.jar",
+          "size": 59330,
+          "sha512": "d4fc311e1d873ae3740ee63a0e9ae286ea59990b99a5ff141958d636bb8cbdfbb1e372977dcdbc8276a975133bdc55e613f90830a7ec5686611c220651a3e023",
+          "sha256": "5b1064a77b0b0395667cbd6a20f1bb6202e15bc931b838886e434458431f585b",
+          "sha1": "550fd80718547672fd2b9225be7dfcb13756c2f5",
+          "md5": "99d74f1129b9ce944600232c1f6d7320"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opensearch-core-1.0.0.jar",
+          "url": "opensearch-core-1.0.0.jar",
+          "size": 59330,
+          "sha512": "d4fc311e1d873ae3740ee63a0e9ae286ea59990b99a5ff141958d636bb8cbdfbb1e372977dcdbc8276a975133bdc55e613f90830a7ec5686611c220651a3e023",
+          "sha256": "5b1064a77b0b0395667cbd6a20f1bb6202e15bc931b838886e434458431f585b",
+          "sha1": "550fd80718547672fd2b9225be7dfcb13756c2f5",
+          "md5": "99d74f1129b9ce944600232c1f6d7320"
+        }
+      ]
+    }
+  ]
+}

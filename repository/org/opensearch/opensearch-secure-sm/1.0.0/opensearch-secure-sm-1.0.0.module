@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.opensearch",
+    "module": "opensearch-secure-sm",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ajlry5jd5nap5dooyhrm5kzvi4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "opensearch-secure-sm-1.0.0.jar",
+          "url": "opensearch-secure-sm-1.0.0.jar",
+          "size": 10893,
+          "sha512": "b262765997c456e3532fa4732a0928937ad858cbc6c08a8306b0401e49665833724d913c23cdaf25665ae765ee5d0f4900135370d8e01af6f94c9544c2955ac7",
+          "sha256": "54d71721f1ae09cb874773f23feb06d7b90f5440c8dfb8375f647f20bc45dd49",
+          "sha1": "4abd0af041769646b92bdad915c99fcbb8ff5cac",
+          "md5": "cf08c642f2dffea27cb94c55a6420c48"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opensearch-secure-sm-1.0.0.jar",
+          "url": "opensearch-secure-sm-1.0.0.jar",
+          "size": 10893,
+          "sha512": "b262765997c456e3532fa4732a0928937ad858cbc6c08a8306b0401e49665833724d913c23cdaf25665ae765ee5d0f4900135370d8e01af6f94c9544c2955ac7",
+          "sha256": "54d71721f1ae09cb874773f23feb06d7b90f5440c8dfb8375f647f20bc45dd49",
+          "sha1": "4abd0af041769646b92bdad915c99fcbb8ff5cac",
+          "md5": "cf08c642f2dffea27cb94c55a6420c48"
+        }
+      ]
+    }
+  ]
+}

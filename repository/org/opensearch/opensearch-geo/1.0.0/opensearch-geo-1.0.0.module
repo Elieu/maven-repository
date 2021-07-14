@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.opensearch",
+    "module": "opensearch-geo",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "wxqayhax6jhfvd6sr6jpx7f4vq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "opensearch-geo-1.0.0.jar",
+          "url": "opensearch-geo-1.0.0.jar",
+          "size": 44842,
+          "sha512": "5df46cd22667a25eb6335718e850e97caf49749842748fea688eb74f54d8d24fc587a61cd710906508fa9fa5d7f5bc1d19374165565ab087597eeb5b195f2fd9",
+          "sha256": "07782eb31014a67a3e81d703d04950f0a11afb83d59fc45ec8f512d221ace9b6",
+          "sha1": "8505808f1cf6efc71582bd070714bee576e274c4",
+          "md5": "9e6dbd70cf108fac7af5ea6b92b1a067"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opensearch-geo-1.0.0.jar",
+          "url": "opensearch-geo-1.0.0.jar",
+          "size": 44842,
+          "sha512": "5df46cd22667a25eb6335718e850e97caf49749842748fea688eb74f54d8d24fc587a61cd710906508fa9fa5d7f5bc1d19374165565ab087597eeb5b195f2fd9",
+          "sha256": "07782eb31014a67a3e81d703d04950f0a11afb83d59fc45ec8f512d221ace9b6",
+          "sha1": "8505808f1cf6efc71582bd070714bee576e274c4",
+          "md5": "9e6dbd70cf108fac7af5ea6b92b1a067"
+        }
+      ]
+    }
+  ]
+}
